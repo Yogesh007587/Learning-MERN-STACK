@@ -1,0 +1,11 @@
+<%-include("includes/head.ejs")%>
+<body>
+    <h1 style="text-align: center;">This page belongs to @<%=data.name%></h1>
+    <p>Followers: <%=data.followers%>&nbsp;&nbsp;&nbsp;&nbsp;Following: <%=data.following%></p>
+    <% for(content of data.posts) {%>
+        <img src="<%=content.image%>" alt="image">
+        <p>Likes: <%=content.likes%>&nbsp;&nbsp;&nbsp;&nbsp;Comments: <%=content.comments%></p>
+
+    <% } %>
+</body>
+</html>

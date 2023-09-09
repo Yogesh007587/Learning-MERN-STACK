@@ -1,0 +1,71 @@
+.division{
+    height: 180px;
+    width: 170px;
+    /* border: 2px solid black; */
+    display: inline-block;
+    margin: 10px;
+    box-shadow: 2px 4px 8px black;
+    border-radius: 10px;
+    transition:  1s;
+
+}
+img{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+
+    height: 90px;
+    width: 100%;
+}h3{
+    text-align: center;
+    margin: 0;
+}
+p{
+    margin: 0;
+    text-align: center;
+}
+.division:hover{
+    box-shadow: 4px 8px 16px rgb(252, 228, 124);
+    
+}
+button{
+    border-radius: 10px;
+    background-color: #EEE2DE;
+    border: none;
+    margin-left: 28%;
+    padding: 1px;
+    transition: 0.5s;
+
+}
+button:hover{
+    background-color: #E4A5FF;
+    box-shadow: 2px 2px 10px black;
+}
+#smileyout{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    background-color: rgb(239, 114, 37);
+    margin: auto;
+}
+#eye{
+    height: 20px;
+    width: 20px;
+    background-color: #000;
+    position: relative;
+    top: 30px;
+    left: 35px;
+    display: inline-block;
+    margin: 20px;
+    border-radius: 50%;
+}
+#mouth{
+    height: 40px;
+    width: 80px;
+    background-color: rgb(145, 46, 46);
+    position: relative;
+    top: 40px;
+    left: 58px;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+}
+

@@ -1,0 +1,10 @@
+body{
+    background-color: lightpink;
+}
+h1{
+    margin: auto;
+    /* background-color: green; */
+}img{
+    height: 100px;
+    width: 100px;
+}
